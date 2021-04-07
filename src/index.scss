@@ -1,0 +1,50 @@
+@import "./variables.scss";
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins"),
+    url(./assets/fonts/Poppins/Poppins-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Athena";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Athena"),
+    url(./assets/fonts/new-athena-unicode/new_athena_unicode.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Barlow"),
+    url(./assets/fonts/Barlow/Barlow-Medium.ttf) format("truetype");
+}
+
+body {
+  color: black;
+  margin: 0;
+  font-family: "Barlow", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  button {
+    font-family: "Barlow", "Helvetica Neue", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      color: #038594;
+    }
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

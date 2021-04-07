@@ -1,0 +1,29 @@
+.carousel {
+  .carousel-item {
+    color: white;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+  }
+
+  .carousel-caption {
+    align-items: center;
+    background-color: rgba(3,148,148,0.5);
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    margin-left: 2rem;
+    padding: 3vw;
+    width: 40%;
+  }
+
+  .slick-dots {
+    bottom: 25px;
+
+    li button:before {
+      color: white;
+    }
+  }
+}
